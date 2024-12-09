@@ -1,0 +1,67 @@
+a:link {
+  color: aqua;
+  font-style: unset;
+}
+.header_1 {
+  text-align: right;
+  margin: 0 20px;
+}
+a:active {
+  color: red;
+  font-style: italic;
+}
+a:visited {
+  color: green;
+}
+h2 {
+  color: red;
+}
+h3:hover {
+  color: rgb(255, 0, 234);
+  font-family: "Courier New", Courier, monospace;
+  padding: green;
+  border: 2px inset red;
+  font-size: 24px;
+}
+div h3 {
+  color: green;
+}
+h1:not(.learn_box) {
+  color: teal;
+  border: 3px solid greenyellow;
+  border-radius: 3px;
+}
+h2:hover {
+  color: green;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  padding: 20px;
+  border: 2px solid greenyellow;
+}
+.box2 {
+  margin-left: 144px;
+}
+.box3 {
+  margin-left: 2px;
+}
+/* about */
+body {
+  background-color: cadetblue;
+}
+
+.contener {
+  width: 800px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+.contener p {
+  line-height: 2;
+  text-align: center;
+  margin: 200px auto 200px;
+}
+img {
+  max-width: 800px;
+}
